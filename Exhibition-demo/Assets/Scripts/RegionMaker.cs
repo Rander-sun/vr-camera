@@ -14,7 +14,6 @@ public class RegionMaker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // transform为人物模型的MeshRenderer的transform
         var size = plane.GetComponent<Renderer>().bounds.size;
         Debug.Log ("x: " + size.x + ",y: " + size.z);//Length and width of the ground
         Vector3 startPos = plane.position - new Vector3(size.x / 2, 0, size.z / 2);//Take the lower left corner as the origin
