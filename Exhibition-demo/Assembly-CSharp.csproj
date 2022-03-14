@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\Region.cs" />
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\CameraManage.cs" />
+     <Compile Include="Assets\Scripts\Camera3rdMove.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
  <Reference Include="UnityEngine">
